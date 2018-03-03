@@ -2,10 +2,14 @@ package com.zipcodewilmington.froilansfarm.Farm;
 
 import java.util.ArrayList;
 
-public class Farm <E>{
-    final ArrayList<E> farmGrounds = new ArrayList<E>();
+public class Farm{
+    final ArrayList<FarmStructures> farmGrounds = new ArrayList<FarmStructures>();
 
-    public void addToFarmGrounds(E e){
+    public void addToFarmGrounds(FarmStructures farmStructures){
+    }
+
+    public FarmStructures accessFarmStructure(){
+        return null;
     }
 
 }

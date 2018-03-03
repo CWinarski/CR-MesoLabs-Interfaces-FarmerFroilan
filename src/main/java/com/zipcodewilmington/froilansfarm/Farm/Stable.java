@@ -10,4 +10,8 @@ public class Stable extends FarmStructures{
 
     public void addHorseToStable(){
     }
+
+    public Horse getHorse(){
+        return null;
+    }
 }

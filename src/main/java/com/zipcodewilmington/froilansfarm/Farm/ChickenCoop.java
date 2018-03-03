@@ -12,4 +12,8 @@ private final ArrayList<Chicken> chickensInCoop = new ArrayList<Chicken>();
 
     }
 
+    private Chicken getChicken(){
+        return null;
+    }
+
 }

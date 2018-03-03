@@ -3,19 +3,13 @@ package com.zipcodewilmington.froilansfarm.Field;
 import java.util.ArrayList;
 
 public class Field{
-    final ArrayList<ArrayList<CropRow>> cropRows = new ArrayList<ArrayList<CropRow>>();
+    final ArrayList<CropRow> cropRows = new ArrayList<CropRow>();
 
-    private void addCornstalkRowToField(CropRow cornStalks){
-
+    private void addCropRowToField(CropRow cropRow) {
     }
 
-    private void addTomatoPlantRowToField(CropRow tomatoPlants){
-
+    private Crop getCropRow(){
+        return null;
     }
-
-    private void addAppleTreeRowToField(CropRow appleTrees){
-
-    }
-
 
     }

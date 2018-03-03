@@ -10,4 +10,8 @@ public class FarmHouse extends FarmStructures{
     private void addPersonToHouse(){
 
     }
+
+    public Person getPerson(){
+        return null;
+    }
 }
