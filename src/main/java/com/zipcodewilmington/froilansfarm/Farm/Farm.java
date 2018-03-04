@@ -3,7 +3,11 @@ package com.zipcodewilmington.froilansfarm.Farm;
 import java.util.ArrayList;
 
 public class Farm{
-    final ArrayList<FarmStructures> farmGrounds = new ArrayList<FarmStructures>();
+
+    final ArrayList<ChickenCoop> chickenCoops = new ArrayList<ChickenCoop>();
+    final ArrayList<Stable>  stables = new ArrayList<Stable>();
+
+
 
     public void addToFarmGrounds(FarmStructures farmStructures){
     }

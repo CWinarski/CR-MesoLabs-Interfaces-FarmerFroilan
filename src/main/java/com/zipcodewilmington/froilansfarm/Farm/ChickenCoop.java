@@ -8,12 +8,8 @@ public class ChickenCoop extends FarmStructures {
 
 private final ArrayList<Chicken> chickensInCoop = new ArrayList<Chicken>();
 
-    private void addChickenToCoop(){
-
-    }
-
-    private Chicken getChicken(){
-        return null;
+    public void addChickenToCoop(Chicken chicken){
+        chickensInCoop.add(chicken);
     }
 
 }

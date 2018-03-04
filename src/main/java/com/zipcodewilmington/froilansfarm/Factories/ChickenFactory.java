@@ -4,6 +4,6 @@ import com.zipcodewilmington.froilansfarm.Animals.Chicken;
 
 public class ChickenFactory {
     public static Chicken createChicken(){
-        return null;
+        return new Chicken();
     }
 }

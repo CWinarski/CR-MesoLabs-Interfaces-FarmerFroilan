@@ -4,6 +4,6 @@ import com.zipcodewilmington.froilansfarm.Interfaces.Edible;
 
 public class Earcorn implements Edible {
     public boolean isEdible() {
-        return false;
+        return true;
     }
 }

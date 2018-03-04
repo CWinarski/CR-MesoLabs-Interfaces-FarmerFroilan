@@ -5,8 +5,8 @@ import com.zipcodewilmington.froilansfarm.Interfaces.FarmVehicle;
 
 public class Cropduster extends Aircraft implements FarmVehicle {
 
-    public boolean fertilize(CropRow cropRow){
-        return false;
+    public String fertilize(CropRow cropRow){
+        return null;
     }
 
     public String operate(Vehicle vehicle) {
@@ -15,5 +15,9 @@ public class Cropduster extends Aircraft implements FarmVehicle {
 
     public String makeNoise() {
         return null;
+    }
+
+    void fly() {
+
     }
 }

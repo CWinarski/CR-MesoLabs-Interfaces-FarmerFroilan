@@ -7,11 +7,13 @@ public class Pilot extends Person{
     public Pilot(String name){
         super(name);
     }
+
     public String eat(Edible edible) {
-        return null;
+        return this.name + " ate the " + edible.getClass().getSimpleName() + "!";
     }
 
     public String makeNoise() {
-        return null;
+        return "Hiya!";
     }
+
 }
