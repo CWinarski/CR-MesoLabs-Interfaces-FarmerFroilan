@@ -6,18 +6,18 @@ import com.zipcodewilmington.froilansfarm.Interfaces.FarmVehicle;
 public class Cropduster extends Aircraft implements FarmVehicle {
 
     public String fertilize(CropRow cropRow){
-        return null;
+        return Cropduster.class.getSimpleName() + " fertilized the " + cropRow.getClass().getSimpleName() + "!";
     }
 
-    public String operate(Vehicle vehicle) {
-        return null;
+    public String operate() {
+        return "Ready to work on the Farm!";
     }
 
     public String makeNoise() {
-        return null;
+        return "Engine roars";
     }
 
-    void fly() {
-
+    public String fly() {
+        return "Soars above the Farm";
     }
 }

@@ -6,4 +6,12 @@ public class Cornstalk extends Crop {
     public Edible yield() {
         return null;
     }
+
+    boolean hasBeenHarvested() {
+        return false;
+    }
+
+    boolean hasBeenFertilized() {
+        return false;
+    }
 }

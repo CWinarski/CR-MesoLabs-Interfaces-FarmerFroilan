@@ -1,17 +1,21 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
 import com.zipcodewilmington.froilansfarm.Field.Crop;
+import com.zipcodewilmington.froilansfarm.Interfaces.Edible;
 import com.zipcodewilmington.froilansfarm.Interfaces.FarmVehicle;
 
 public class Tractor extends Vehicle implements FarmVehicle {
-    public String operate(Vehicle vehicle) {
-        return null;
+    public String operate() {
+        return "Ready to work on the Farm!";
     }
 
     public String makeNoise() {
-        return null;
+        return "Engine splutters";
     }
 
-    public void harvest(Crop crop){
+    public Edible harvest(Crop crop){
+        //remove crop from row
+        //return edible then goes to storage
+        return null;
     }
 }
